@@ -1,0 +1,13 @@
+body {
+    margin: 100px;
+}
+.shapeDisplay {
+    height: 600px;
+    width: 600px;
+    background-color: palegoldenrod;
+    float: right;
+    position: relative;
+}
+.circleBase {
+    border-radius: 50%;
+}
