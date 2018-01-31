@@ -8,7 +8,7 @@
     <title>Shapes</title>
 </head>
 <body>
-    <div class="shapeDisplay" id="shapeArea"></div>
+    <div class="shapeDisplay" id="shapeDisplay"></div>
     <h1>Square</h1>
     <p>Side Length:</p>
     <input id="sideLength" type="text">
@@ -29,7 +29,15 @@
     <h1>Triangle</h1>
     <p>Height:</p>
     <input id="triangleHeight" type="text">
-    <button onclick="">Create</button>
+    <button onclick="makeTriangle()">Create</button>
+    <div id="sidePanel">
+        <h3 id="shapeName"></h3>
+        <h3 id="shapeHeight"></h3>
+        <h3 id="shapeWidth"></h3>
+        <h3 id="shapeRadius"></h3>
+        <h3 id="shapeArea"></h3>
+        <h3 id="shapePerimeter"></h3>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
